@@ -2,16 +2,18 @@
 layout: page
 title: Contact
 permalink: /contact/
-feature-img: "img/color.png"
+feature-img: "img/contact.jpg"
 ---
 
-Bacon ipsum dolor amet filet mignon meatball spare ribs fatback bacon shankle. Kielbasa andouille fatback salami, boudin bresaola pig alcatra turkey spare ribs jerky. Corned beef bresaola leberkas salami alcatra beef landjaeger venison shank bacon meatloaf beef ribs picanha. Leberkas sausage brisket porchetta shankle prosciutto chicken picanha kielbasa pig kevin t-bone turducken filet mignon jowl.
+{:.center}
+![]({{ site.baseurl }}/img/friends.jpg)
 
-<form action="https://getsimpleform.com/messages?form_api_token=_yourtoken_" method="post">
-  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='http://bloc.github.io/portfolio-iro/thank-you/' />
-  <input type='text' name='name' placeholder='Your Full Name' />
-  <input type='email' name='email' placeholder='Your E-mail Address' />
-  <textarea name='message' placeholder='Write your message ...'></textarea>
-  <input type='submit' value='Send Message' />
+### I welcome your feedback, questions, and comments.  Fill out the form below and I will get back to you asap.
+<form action="https://getsimpleform.com/messages?form_api_token=bb49b548cc5ae87421bee2a0d8dea078" method="post" class="center">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission
+  <input type='hidden' name='redirect_to' value='http://bloc.github.io/portfolio-iro/thank-you/' /> -->
+  <input type='text' name='name' placeholder='Your Full Name' /><br><br>
+  <input type='email' name='email' placeholder='Your E-mail Address' /><br><br>
+  <textarea name='message' placeholder='Write your message ...'></textarea><br>
+  <a type='submit' value='Send Message' href = '/thank-you/'>Submit</a>
 </form>

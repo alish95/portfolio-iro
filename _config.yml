@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/profile.github.io/" # the subpath of your site, e.g. /blog/
-url: "http://github.com/alish95.profile.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://alish95.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
